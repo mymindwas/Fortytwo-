@@ -1,41 +1,52 @@
 使用说明：
 
 1.先参考教程，安装官方文件（https://docs.fortytwo.network/docs/quick-start）	
-
+```bash
 mkdir -p ~/Fortytwo && cd ~/Fortytwo
-
+```
+```bash
 curl -L -o fortytwo-console-app.zip https://github.com/Fortytwo-Network/fortytwo-console-app/archive/refs/heads/main.zip
-
+```
+```bash
 unzip fortytwo-console-app.zip
-
+```
+```bash
 cd fortytwo-console-app-main
-
+```
+```bash
 chmod +x linux.sh && ./linux.sh
-
+```
 按官方教程导入安装好并下载好模型。
 
 2.重启节点（新建一个screen界面，如果使用的是windows则重新打开一个wsl)
-
+```bash
 cd
-
+```
+```bash
 chmod +x install_monitor.sh
-
+```
+```bash
 chmod +x fortytwo_monitor.sh
-
-./install_monitor.sh  
-
+```
+```bash
+./install_monitor.sh
+```
+```bash
 .fortytwo-monitor/start_monitor.sh
+```
 
-关掉原来的运行的Ubuntu，看到
+关掉原来的官方教程运行的Ubuntu界面，新界面中看到
 ![image](https://github.com/user-attachments/assets/5b82829a-00e0-4abc-b368-7031cbb288fb)
 
 说明运行成功
 
 3.查看日志
-
+```bash
 tail -f ~/Fortytwo/fortytwo-console-app-main/fortytwo_startup.log
-
+```
+```bash
 tail -20 ~/Fortytwo/fortytwo-console-app-main/fortytwo_startup.log
+```
 
 ## 工作原理
 
