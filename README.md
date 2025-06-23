@@ -15,6 +15,7 @@ chmod +x linux.sh && ./linux.sh
 按官方教程导入安装好并下载好模型。
 
 2.重启节点（新建一个screen界面，如果使用的是windows则重新打开一个wsl)
+
 cd
 
 chmod +x install_monitor.sh
