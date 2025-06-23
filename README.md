@@ -1,4 +1,6 @@
-Fortytwo 开发网络是去中心化、行星级智能开发的第一阶段。它连接社区拥有的节点，这些节点在 PC 和 Mac 等消费设备上运行小型语言模型。每个节点贡献闲置的计算能力，创建一个分布式网络，随着更多参与者的加入而不断改进。
+# Fortytwo节点
+
+Fortytwo开发网络是去中心化、行星级智能开发的第一阶段。它连接社区拥有的节点，这些节点在 PC 和 Mac 等消费设备上运行小型语言模型。每个节点贡献闲置的计算能力，创建一个分布式网络，随着更多参与者的加入而不断改进。
 
 该开发网络运行在 Monad 测试网（一个与 Layer 1 EVM 兼容的区块链）上，并作为结算层。节点性能和参与数据均记录在链上，以确保透明度和安全性。
 
@@ -14,7 +16,7 @@ Fortytwo 开发网络是去中心化、行星级智能开发的第一阶段。�
 
 使用说明：
 
-1.先参考教程，安装官方文件（https://docs.fortytwo.network/docs/quick-start）	
+## 1.先参考教程，安装官方文件（https://docs.fortytwo.network/docs/quick-start）	
 ```bash
 mkdir -p ~/Fortytwo && cd ~/Fortytwo
 ```
@@ -32,7 +34,7 @@ chmod +x linux.sh && ./linux.sh
 ```
 按官方教程导入安装好并下载好模型。
 
-2.重启节点（新建一个screen界面，如果使用的是windows则重新打开一个wsl)
+## 2.重启节点（新建一个screen界面，如果使用的是windows则重新打开一个wsl):
 ```bash
 cd
 ```
@@ -54,7 +56,7 @@ chmod +x fortytwo_monitor.sh
 
 说明运行成功
 
-3.查看日志
+## 3.查看日志
 ```bash
 tail -f ~/Fortytwo/fortytwo-console-app-main/fortytwo_startup.log
 ```
