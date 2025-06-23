@@ -19,6 +19,7 @@ chmod +x fortytwo_monitor.sh
 
 3.查看日志
 tail -f ~/Fortytwo/fortytwo-console-app-main/fortytwo_startup.log
+
 tail -20 ~/Fortytwo/fortytwo-console-app-main/fortytwo_startup.log
 
 ## 工作原理
